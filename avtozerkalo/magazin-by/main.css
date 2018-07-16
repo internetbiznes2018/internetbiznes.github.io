@@ -1,0 +1,808 @@
+.gift {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    background: url(gift.png)/*tpa=http://magazin-by.ru/car-dvrs-mirror/gift/gift.png*/ no-repeat;
+    left: 380px;
+    top: 180px;
+
+}
+
+
+.giftbox {
+    clear: both;
+    overflow: hidden;
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+.giftbox img {
+    max-width: 98%;
+    height: auto !important;
+}
+
+
+img.vistabl,
+img.vismob {
+    display: none;
+}
+
+
+.top-nav{
+    color: #fff;
+    background: url(logo.png)/*tpa=http://magazin-by.ru/car-dvrs-mirror/img/logo.png*/ center center no-repeat #232323;
+}
+.top-nav .wrap{
+    padding: 20px;
+}
+.top-nav ul>li{
+    display: inline-block;
+    margin: 0 30px;
+    font-size: 12px;
+    line-height: 1em;
+}
+.top-nav ul>li:before{
+    content: '';
+    display: inline-block;
+    height: 1em;
+    margin: 0 8px 0 0;
+    border-left: 2px solid #20aec6;
+    vertical-align: bottom;
+}
+.top-nav ul>li a{
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.top-nav ul>li a:hover{
+    color: #20aec6;
+}
+.block-1{
+    height: 490px;
+    background: url(bg-top.jpg)/*tpa=http://magazin-by.ru/car-dvrs-mirror/img/bg-top.jpg*/ center 0 no-repeat;
+    
+}
+.block-1 .wrap{
+    padding: 10px 40px 20px;
+    position: relative;
+}
+.block-1 .cont-left{
+    position: relative;
+    float: left;
+    width: 50%;
+}
+.block-1 h1.title{
+    margin: 0 0 10px;
+    width: 52%;
+    height: 100px;
+    font-size: 48px;
+    line-height: 1em;
+    color: #20aec6;
+    text-align: left;
+}
+.block-1 h1.title>span{
+    display: block;
+    font-weight: 400;
+    word-spacing: 7px;
+    letter-spacing: 3px;
+    font-size: 28px;
+    line-height: 1.4em;
+    color: #222;
+}
+.block-1 h1.title>small{
+    font-size: 34px;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+.block-1 h1.title b {
+    display: block;
+    font-size: 18px;
+    line-height: 1em;
+    color: #000;
+    text-transform: uppercase;
+}
+.block-1 .sale{
+    position: absolute;
+    top: 32px;
+    left: 122px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1em;
+    text-transform: uppercase;
+}
+.block-1 .sale>strong{
+    font-size: 1.2em;
+    vertical-align: bottom;
+}
+.cost{
+    padding: 6px;
+    border: 1px solid rgba(32,174,198,.5);
+}
+.cost>span{
+    display: block;
+    float: left;
+    width: 50%;
+    padding: 6px 0 2px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 44px;
+    line-height: 1em;
+    color: #fff;
+}
+.cost>span small{
+    font-size: 0.6em;
+}
+.cost>span.old-cost{
+    font-weight: 300;
+    text-decoration: line-through;
+    background: rgba(0,0,0,.4);
+}
+.cost>span.new-cost{
+    font-weight: 700;
+    background: #20aec6;
+}
+.block-1 .cost{
+    margin: 250px 20px 0;
+}
+.block-1 .cont-right{
+    float: right;
+    width: 50%;
+    margin: -100px 0 0;
+    padding: 20px 0 0 60px;
+}
+.block-1 .list{
+    padding: 6px;
+    border: 1px solid rgba(0,0,0,.2);
+}
+.block-1 .list ul, .block-1 .list .form{
+    padding: 30px 20px 40px;
+    background: rgba(0,0,0,.2);
+}
+.block-1 .list ul>li{
+    position: relative;
+    height: 64px;
+    margin: 0 0 30px 0;
+    padding: 8px 0 0 84px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+    background: rgba(0,0,0,.4);
+}
+.block-1 .list ul>li:before{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 64px;
+    height: 64px;
+    top: 0;
+    left: 0;
+    background: url(b1-icon.png)/*tpa=http://magazin-by.ru/car-dvrs-mirror/img/b1-icon.png*/ no-repeat;
+}
+.block-1 .list ul>li:nth-child(1):before{
+    background-position: 0 0;
+}
+.block-1 .list ul>li:nth-child(2):before{
+    background-position: -64px 0;
+}
+.block-1 .list ul>li:nth-child(3):before{
+    background-position: -128px 0;
+}
+.block-1 .button-m{
+    margin-top: -40px;
+}
+.block-1 .timer{
+    text-align: center;
+}
+.block-1 .timer>p{
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.block-1 .input-b{
+    margin: 0 auto 16px;
+}
+.block-2 .wrap{
+    padding: 50px 0 70px;
+}
+.block-2 .title>span{
+    color: #20aec6;
+    font-weight: 700;
+}
+ul.adv {
+    text-align: center;
+}
+.block-2 .adv>li {
+    width: 33%;
+    display: inline-block;
+    vertical-align: top;
+}
+.block-2 .adv>li:before{
+    content: '';
+    display: block;
+    width: 136px;
+    height: 134px;
+    margin: 0 auto 20px;
+    background: url(b2-icon.png)/*tpa=http://magazin-by.ru/car-dvrs-mirror/img/b2-icon.png*/ no-repeat;
+}
+.block-2 .adv>li:nth-child(1):before{
+    background-position: 0 0;
+}
+.block-2 .adv>li:nth-child(2):before{
+    background-position: -136px 0;
+}
+.block-2 .adv>li:nth-child(3):before{
+    background-position: -272px 0;
+}
+.block-2 .adv>li:nth-child(4):before{
+    background-position: -408px 0;
+}
+.block-2 .adv h3{
+    padding: 0 0 5px 0;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #20aec6;
+}
+.block-2 .adv p{
+    font-size: 14px;
+}
+.block-3{
+    background: #20aec6;
+}
+.block-3 h2.title{
+    float: left;
+    width: 560px;
+    padding: 0 80px 0 0;
+    color: #045968;
+}
+.block-3 h2.title>span{
+    display: block;
+    padding: 0 0 0 40px;
+    color: #fff;
+    font-weight: 700;
+}
+.block-3 .pic-1{
+    display: block;
+    float: left;
+    margin: -30px 0 30px;
+}
+.block-3 .list>li{
+    margin: 8px 0;
+    padding: 5px 10px 5px 40px;
+    font-size: 18px;
+    line-height: 1.4em;
+    color: #fff;
+    background: url(marker.png)/*tpa=http://magazin-by.ru/car-dvrs-mirror/img/marker.png*/ 12px 10px no-repeat;
+}
+.block-3 .list>li:nth-child(2n){
+    background-color: rgba(0,0,0,.1);
+}
+.block-3 .spec-1{
+    padding: 0 0 0 540px;
+}
+.block-3 h3.title{
+    position: relative;
+    clear: both;
+    margin: 50px 0 30px 0;
+    text-align: left;
+}
+.block-3 h3.title:before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    top: 50%;
+    left: 0;
+    background: #fff;
+    z-index: 1;
+}
+.block-3 h3.title>span{
+    position: relative;
+    margin: 0 0 0 40px;
+    padding: 0 20px;
+    font-size: 24px;
+    color: #fff;
+    background: #20aec6;
+    z-index: 10;
+}
+.block-3 .pic-2{
+    display: block;
+    float: right;
+}
+.block-3 .spec-2{
+    padding: 10px 540px 0 0;
+}
+.block-4{
+    background: url(bg-exp.jpg)/*tpa=http://magazin-by.ru/car-dvrs-mirror/img/bg-exp.jpg*/ center 0 no-repeat;
+}
+.block-4 h2.title{
+    color: #fff;
+}
+.block-4 h2.title>span{
+    font-weight: 700;
+    color: #f3b218;
+}
+.block-4 .exp-cont{
+    position: relative;
+    width: 90%;
+    margin: 80px auto 0;
+    padding: 30px;
+    background: url(bg-quot.png)/*tpa=http://magazin-by.ru/car-dvrs-mirror/img/bg-quot.png*/ 95% 8% no-repeat #fff;
+}
+.block-4 .exp-cont:before{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: -7px;
+    left: -7px;
+    padding: 6px;
+    border: 1px solid rgba(255,255,255,.2);
+    -webkit-box-sizing: content-box; 
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+.block-4 .exp-cont>img{
+    position: relative;
+    display: block;
+    float: left;
+    margin: -80px 20px 0 0;
+}
+.block-4 .exp-cont>h3{
+    padding: 0 0 20px 0;
+    text-transform: uppercase;
+}
+.block-4 .exp-cont>h3 small{
+    text-transform: none;
+    font-weight: 400;
+}
+.block-4 .exp-cont>p{
+    text-align: justify;
+}
+.block-5 .wrap{
+    padding: 40px 0;
+}
+.block-5 .title{
+    margin: 0 auto 10px;
+}
+.block-5 .title>span{
+    color: #20aec6;
+    font-weight: 700;
+}
+.block-5 .video-container{
+    position: relative;
+    width: 80%;
+    height: 360px;
+    margin: 0 auto 50px;
+    overflow: hidden;
+    background: #000;
+    outline: 8px solid #ececec;
+}
+.video-container iframe, .video-container object, .video-container embed{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.block-5 .img-cont>img{
+    display: block;
+    float: left;
+    width: 47%;
+    margin: 0 1.5%;
+}
+.block-5 .button-m{
+    margin-top: 40px;
+}
+.block-6{
+    background: #20aec6;
+}
+.block-6 .wrap{
+    padding: 40px 0px 50px;
+}
+.block-6 h2.title{
+    color: #045968;
+}
+.block-6 h2.title>span{
+    color: #fff;
+    font-weight: 700;
+}
+.block-6 .rev-slider{
+    
+}
+.block-6 .rev-item{
+    float: left;
+    width: 30.33%;
+    margin: 100px 1.5% 0;
+    padding: 20px;
+    background: #fff;
+}
+.block-6 .rev-item>div{
+    margin: -100px auto 0;
+    padding: 6px;
+    border: 1px solid rgba(0,0,0,.1);
+}
+.block-6 .rev-item>div img{
+    display: block;
+}
+.block-6 .rev-item>h3{
+    padding: 15px 0 10px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 16px;
+}
+.block-6 .rev-item>p{
+    height: 180px;
+    font-weight: 300;
+    text-align: center;
+}
+.block-7 .wrap{
+    padding: 50px 0 70px;
+}
+.block-7 .title>span{
+    color: #f3b218;
+    font-weight: 700;
+}
+.block-7 .deliv>li{
+    float: left;
+    width: 33.33%;
+    padding: 0 25px;
+    text-align: center;
+}
+.block-7 .deliv>li:before{
+    content: '';
+    display: block;
+    width: 236px;
+    height: 151px;
+    margin: 0 auto 20px;
+    background: url(b7-icon.png)/*tpa=http://magazin-by.ru/car-dvrs-mirror/img/b7-icon.png*/ no-repeat;
+}
+.block-7 .deliv>li:nth-child(1):before{
+    background-position: 0 0;
+}
+.block-7 .deliv>li:nth-child(2):before{
+    background-position: -236px 0;
+}
+.block-7 .deliv>li:nth-child(3):before{
+    background-position: -472px 0;
+}
+.block-7 .deliv p{
+    font-size: 14px;
+}
+.copyright{
+    padding: 20px 0;
+    text-align: center;
+    color: rgba(255,255,255,.8);
+    font-size: 14px;
+    line-height: 1.3em;
+    background: #232323;
+}
+.copyright .mob-vis{
+    display: none;
+}
+@media screen and (max-width: 959px){
+
+    .gift {
+        left: 180px;
+        top: 203px;
+    }
+    img.visdesc, img.vismob {
+        display: none;
+    }    
+    img.vistabl {
+        display: block;
+    } 
+    .giftbox img {
+        max-width: 100%;
+    }
+    .wrap{
+        width: 640px;
+        padding: 40px 20px;
+    }
+    .block-1 .list ul>li {
+        font-size: 13px;
+    }
+    .top-nav{
+        display: none;
+    }
+    .block-1{
+        height: 534px;
+        background: url(bg-top-640.jpg)/*tpa=http://magazin-by.ru/car-dvrs-mirror/img/bg-top-640.jpg*/ center 0 no-repeat;
+    }
+    .block-1 .wrap{
+        padding: 0px;
+    }
+    .block-1 h1.title{
+        margin: 0;
+        width: 100%;
+        height: 120px;
+        line-height: 0.65em;
+        text-align: center;
+    }
+    .block-1 h1.title>span{
+        padding: 8px 0 25px;
+        line-height: 1em;
+        color: #fff;
+    }
+    .block-1 h1.title b {
+        margin: 10px 0 0;
+    }
+    .block-1 .sale{
+        left: 68px;
+        top: 44px;
+        font-size: 18px;
+    }
+    .cost>span{
+        float: none;
+        width: 100%;
+        font-size: 40px;
+    }
+    .block-1 .cost{
+        margin: 250px 35px 0;
+    }
+    .block-1 .cont-right{
+        margin: 0;
+        padding: 20px 10px 0;
+    }
+    .block-1 .list{
+        padding: 0;
+        border: 0;
+    }
+    .block-1 .list ul, .block-1 .list .form{
+        padding: 0;
+        background: transparent;
+    }
+    .block-1 .button-m{
+        margin-top: 0px;
+    }
+    .block-2 .wrap{
+        padding-bottom: 20px;
+    }
+    .block-2 .adv>li {
+        margin-bottom: 40px;
+        padding: 0 10px;
+        width: 32%;
+    }
+    .block-2 .adv h3 {
+        font-size: 14px;
+    }
+    .block-3 h2.title{
+        float: none;
+        width: 100%;
+        margin: 0 0 20px;
+        padding: 0;
+    }
+    .block-3 h2.title>span{
+        padding: 0;
+    }
+    .block-3 .pic-1,.block-3 .pic-2{
+        float: none;
+        margin: 0 auto;
+    }
+    .block-3 .list{
+        float: none;
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px 0 0;
+    }
+    .block-3 .list>li{
+        padding-left: 45px;
+    }
+    .block-3 h3.title{
+        text-align: center;
+    }
+    .block-3 h3.title>span{
+        margin: 0;
+    }
+    .block-4 {
+        background: url(bg-exp-640.jpg)/*tpa=http://magazin-by.ru/car-dvrs-mirror/img/bg-exp-640.jpg*/ center 0 no-repeat;
+    }
+    .block-5 .video-container{
+        width: 100%;
+    }
+    .block-6 .slick-arrow{
+        display: inline-block;
+        position: absolute;
+        width: 17px;
+        height: 28px;
+        cursor: pointer;
+        z-index: 99;
+        bottom: 0;
+        background: url(but-sl.png)/*tpa=http://magazin-by.ru/car-dvrs-mirror/img/but-sl.png*/ no-repeat;
+        opacity: 0.5;
+        -webkit-transition: all 0.2s;
+        -moz-transition:    all 0.2s;
+        -o-transition:      all 0.2s;
+        -ms-transition:     all 0.2s;
+        transition:         all 0.2s;
+     }
+    .block-6 .slick-prev{
+        left: 30%;
+        background-position: 0 0;
+    }
+    .block-6 .slick-next{
+        background-position: 100% 0;
+        right: 30%;
+    }
+    .block-6 .slick-arrow:hover{
+        opacity: 1;
+    }
+    .block-6 .slick-dots{
+        padding: 30px 0 0;
+        text-align: center;
+    }
+    .block-6 .slick-dots li{
+        display: inline-block;
+        width: 18px;
+        height: 18px;
+        margin: 0 5px;
+        border-radius: 50%;
+        background: #118195;
+        cursor: pointer;
+    }
+    .block-6 .slick-dots li.slick-active{
+        background: #045968;
+        -webkit-transition: all 0.2s;
+        -moz-transition:    all 0.2s;
+        -o-transition:      all 0.2s;
+        -ms-transition:     all 0.2s;
+        transition:         all 0.2s;
+    }
+    .block-6 .slick-dots li>button{
+        display: none;
+    }
+    .block-6 .rev-item{
+        margin: 100px 15px 0;
+    }
+    .block-7 .wrap{
+        padding: 40px 0;
+    }
+    .block-7 .deliv{
+        text-align: center;
+    }
+    .block-7 .deliv>li{
+        display: inline-block;
+        float: none;
+        width: 240px;
+        margin: 0 30px 30px;
+        padding: 0;
+        vertical-align: top;
+    }
+    .block-7 .deliv>li:last-child{
+        margin-bottom: 0;
+    }
+}
+@media screen and (max-width: 639px){
+
+
+    .gift {
+        left: 170px;
+        top: 143px;
+    }
+    img.visdesc, img.vistabl {
+        display: none;
+    }    
+    img.vismob {
+        display: block;
+    } 
+
+    .wrap{
+        width: 320px;
+        padding: 40px 10px;
+    }
+    h2.title{
+        font-size: 32px;
+        line-height: 1.4em;
+    }
+    .block-1{
+        height: auto;
+        background: url(bg-top-320.jpg)/*tpa=http://magazin-by.ru/car-dvrs-mirror/img/bg-top-320.jpg*/ center 0 no-repeat;
+    }
+    .block-1 h1.title{
+        width: 100%;
+        height: 110px;
+        font-size: 30px;
+        line-height: 1em;
+    }
+    .block-1 h1.title>small{
+        font-size: 26px;
+    }
+    .block-1 h1.title>span{
+        padding: 12px 0 20px;
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+    .block-1 h1.title b {
+        margin: 5px 0 0 25px;
+        font-size: 14px;
+        text-align: left;
+}
+    .block-1 .cont-left{
+        float: none;
+        width: auto;
+        padding: 165px 0 0;
+    }
+    .block-1 .sale{
+        left: 112px;
+        top: 10px;
+    }
+    .block-1 .sale>b{
+        display: none;
+    }
+    .block-1 .sale>strong{
+        vertical-align: baseline;
+        line-height: 1em;
+    }
+    .block-1 .cost{
+        margin-top: 0;
+    }
+    .block-1 .cont-right{
+        float: none;
+        width: auto;
+        padding: 14px 0 18px;
+    }
+    .block-1 .list ul{
+        padding: 0 10px;
+    }
+    .block-2 h2.title>span{
+        display: block;
+    }
+    .block-2 .adv>li{
+        float: none;
+        width: auto;
+    }
+    .block-3 .list{
+        width: 100%;
+    }
+    .block-4{
+        background: #020636;
+        background: -moz-linear-gradient(180deg,  #020636 0%, #1f2458 100%);
+        background: -webkit-linear-gradient(180deg,  #020636 0%,#1f2458 100%);
+        background: linear-gradient(180deg,  #020636 0%,#1f2458 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#020636', endColorstr='#1f2458',GradientType=1 );  
+    }
+    .block-4 .exp-cont{
+        width: 100%;
+        padding: 30px 15px;
+    }
+    .block-4 .exp-cont>h3{
+        clear: both;
+        padding-top: 20px;
+    }
+    .block-5 .title>span{
+        display: block;
+    }
+    .block-5 .video-container{
+        outline: none;
+        height: 220px;
+    }
+    .block-5 .img-cont>img{
+        float: none;
+        width: auto;
+        margin: 20px auto 0;
+    }
+    .block-6 h2.title{
+        margin-bottom: 20px;
+    }
+    .block-6 .slick-prev{
+        left: 20%;
+    }
+    .block-6 .slick-next{
+        right: 20%;
+    }
+    .block-7 .deliv>li{
+        display: block;
+        margin: 0 auto 30px;
+    }
+    .countbox{
+        padding-bottom: 40px;
+    }
+    .copyright .mob-hid{
+        display: none;
+    }
+    .copyright .mob-vis{
+        display: inline;
+    }
+}
